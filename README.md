@@ -4,7 +4,7 @@ Just another simple logging package with support for timestamps. Best used to ge
 
 ## Usage
 
-Using mokilow is straightforward. By default, the time is included within the logging statement.
+Using mokilow is straightforward. By default, the time is not included within the logging statement.
 
 ```js
 mokilow.warn("a warning message")
@@ -34,7 +34,7 @@ npm i mokilow
 Run the written unit tests for the package with the commands below.
 
 ```sh
-git clone https://github.com/aravindnatch/mokilo.git
+git clone https://github.com/aravindnatch/mokilow.git
 npm install
 npm test
 ```
